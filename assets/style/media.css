@@ -71,6 +71,10 @@
     .about__me-text{
         font-size: 17px;
     }
+    .about__me-text span{
+        font-size: 17px !important;
+        display: none;
+    }
     .about__languages{
         padding: 10px;
     }
@@ -119,13 +123,19 @@
     }
 /*///////////////////////////////*/
     .language__text{
-        font-size: 13px !important;
+        font-size: 10px !important;
     }
     .language{
-        padding: 12px;
+        padding: 10px;
     }
+    
     .language__content{
-        gap: 15px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .about__me-language-start{
+        gap: 10px;
+        flex-direction: column;
     }
 /*///////////////////////////////*/
     .tg__span{
@@ -134,5 +144,10 @@
     .ins__span{
         display: none;
     }
-
+    .about__me-content{
+        padding-top: 70px !important;
+    }
+    .welcome-text{
+        font-size: 27px;
+    }
 }
